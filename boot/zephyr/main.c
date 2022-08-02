@@ -465,6 +465,7 @@ static bool detect_pin(const char* port, int pin, uint32_t expected, int delay)
 
 void main(void)
 {
+    
     struct boot_rsp rsp;
     int rc;
     fih_int fih_rc = FIH_FAILURE;
